@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta de Página Web</title>
+    <!-- Enlace a Bootstrap 5 desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="row bg-light py-3">
+            <div class="col-md-6">
+                <img src="Imagenes/images.png" alt="Descripción de la imagen" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <p>Esta tarea ha sido realizada para mejorar el conocimiento mío</p>
+            </div>
+        </header>
+
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Mi Página</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExample" class="carousel slide my-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagenes/imagen11.png" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/bootstrap-5.0-illustration.png" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/images.jfif" class="d-block w-100" alt="Imagen 3" >
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <section class="row my-4">
+            <aside class="col-md-3 bg-secondary text-white p-3">
+                <p>Contenido adicional</p>
+            </aside>
+
+            <main class="col-md-9">
+                <div class="row">
+                    <article class="col-md-6 bg-info text-white p-3 mb-3">
+                        <p>Incorporación de Bootstrap 5: Se ha agregado el enlace a la CDN de Bootstrap 5 para los estilos CSS y el script JavaScript para las funcionalidades interactivas.</p>
+                    </article>
+                    <article class="col-md-6 bg-info text-white p-3 mb-3">
+                        <p>El viewport es un concepto clave en el diseño y desarrollo de sitios web, especialmente en la era de los dispositivos móviles. 
+                            Es el área visible de una página web en un dispositivo, ya sea una computadora de escritorio, una tableta o un teléfono móvil. 
+                            A continuación, se detalla cómo funciona el viewport y su importancia en la visualización de sitios web en diferentes dispositivos.</p>
+                    </article>
+                </div>
+            </main>
+        </section>
+
+        <section class="row text-center my-4">
+            <div class="col-md-3">
+                <img src="Imagenes/imagen11.png" alt="Descripción de la imagen" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="Imagenes/imagen11.png" alt="Descripción de la imagen 2" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="Imagenes/imagen11.png" alt="Descripción de la imagen 3" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="Imagenes/imagen11.png" alt="Descripción de la imagen 4" class="img-fluid">
+            </div>
+        </section>
+
+        <footer class="row bg-dark text-white py-3">
+            <div class="col-md-6 text-center">
+                <p>Creado por:</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <p>Oscar Bredenkamp Murillo González</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

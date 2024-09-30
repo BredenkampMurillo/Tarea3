@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    border: 1px solid #000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.header-left, .header-right {
+    width: 48%;
+    padding: 20px;
+    background-color: #9be39d;
+    border: 1px solid #000;
+}
+
+.navigation {
+    background-color: #7fbf7f;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+    background-color: #d0dff1;
+}
+
+.aside {
+    width: 25%;
+    background-color: #8faacb;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.main {
+    width: 75%;
+    padding: 0 20px;
+}
+
+.article {
+    background-color: #abcde0;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f6d8c6;
+}
+
+.image-box {
+    width: 22%;
+    background-color: #f3a07a;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    color: white;
+    padding: 20px;
+}
+
+.footer-left, .footer-right {
+    width: 50%;
+    text-align: center;
+}
+
+/* ----------------- Adaptación para móviles ----------------- */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-left, .header-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigation {
+        padding: 10px;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .aside, .main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .article {
+        margin-bottom: 10px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+}
